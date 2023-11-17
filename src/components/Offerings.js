@@ -17,7 +17,7 @@ const Offerings = () => {
                     {
                         barfis.map((barfi, i) => {
                             return (
-                                <div className="single-barfi d-flex flex-column justify-content-start align-items-start  col-10 col-md-3 col-lg-3 col-xl-4 p-1">
+                                <div key={i} className="single-barfi d-flex flex-column justify-content-start align-items-start  col-10 col-md-3 col-lg-3 col-xl-4 p-1">
                                     <img src={barfi} alt="" />
                                     <h3>Barfi</h3>
                                     <h3>Rs. 900/=</h3>
