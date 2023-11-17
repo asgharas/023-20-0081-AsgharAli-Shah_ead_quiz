@@ -1,15 +1,16 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import MyNavbar from './components/MyNavbar';
 import Welcome from './components/Welcome';
 import Offerings from './components/Offerings';
 import { About } from './components/About';
 import { ContactUs } from './components/ContactUs';
 import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css'; //react-bootstrap
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <MyNavbar />
       <Welcome />
       <Offerings />
       <About />
